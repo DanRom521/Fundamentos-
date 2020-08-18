@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int d, j, s;
+	cout << "Cuantos dias se ha trbajado?";
+	cout << endl;
+	cin >> d;
+	cout << "Cuanto es el salario por dia?";
+	cout << endl;
+	cin >> j;
+	s = d * j;
+	cout << "Su salario es de " << s << " Bs.";
+	return 0;
+
+}
